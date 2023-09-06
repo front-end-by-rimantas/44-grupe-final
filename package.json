@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "npm-run-all --parallel server:ts server:dev client:dev",
+        "dev": "npm-run-all --parallel server:dev client:dev",
         "server:ts": "npm --prefix ./server/ run ts",
         "server:dev": "npm --prefix ./server/ run dev",
         "client:dev": "npm --prefix ./client/ run start",
